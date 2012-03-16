@@ -1,121 +1,39 @@
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+    <html>
+      <head>
+	<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+  	<link rel="stylesheet" type="text/css" href="css/menu.css" media="screen" />
+        <title>Popcorn .:.:. the film search engine</title>
+      </head>
+      <body>
+        <div id="page">
+
+          <div id="header">
+            <h1 id="title">Popcorn (Movie Search) - a Team D application</h1>
+          </div> <!-- end header -->
+
+          <div id="searchbox">
+
+            <form action="/popcorn_app/query/" onsubmit="return validate_form(this)" method="post">
+
+              {% csrf_token %} <!-- cross-site request forgery protection -->
+
+              <input type="text" name="query" value="" id="query">
+
+              <input type="submit" value="Search" />
+
+            </form>
+
+          </div> <!-- searchbox -->
+
+          <div id="resultbox">
+
+            {% block main %}{% endblock %} <!-- placeholder block for results -->
+
+          </div> <!-- resultbox -->
 
 
+        </div> <!-- end page -->
 
-$(document).ready(function()
-{
-
-$('.default-value').each(function() {
-    var default_value = this.value;
-
-    $(this).focus(function() {
-        if(this.value == default_value) {
-            this.value = '';
-        }
-    });
-    $(this).blur(function() {
-        if(this.value == '') {
-            this.value = default_value;
-        }
-    });
-});
-
-$(".sign_in").click(function()
-{
-$("#sign_box").show();
-return false;
-});
-$("body #content").click(function()
-{
-$("#sign_box").hide();
-return false;
-});
-});
-</script>
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
-<head>
-	<link rel="stylesheet" type="text/css" href="stylesheet/screen.css" media="screen" />
-  	<link rel="stylesheet" type="text/css" href="stylesheet/menu.css" media="screen" />
-    
-    <title>Popcorn .:.:. the film search engine</title>
-</head>
-<body>
-<div id ="content">
-<div id="container">
-        <div id="header">
-        <div><a href="#" class="sign_in">Login</a></div>
-<div id="sign_box">
-<form method="post" action="">
-<label>Username
-<input type="text" name="usr"/></label>
-<label>Password
-<input type='password' name="pwd"/></label>
-<input type="submit" value=" Sign In "/>
-</form></div></div>
-	<div id="primary">
-	
-	<table>
-	  
-        <tr><td>&nbsp;</td></tr>
-    	<tr><td><h2>Past Searches</h2>
-			<div id="menu1">
-			<ul>
-				<li><a title="Query 1" href="#1">Query 1</a></li>
-				<li><a title="Query 2" href="#2">Query 2</a></li>
-				<li><a title="Query 3" href="#3">Query 3</a></li>
-				<li><a title="Query 4" href="#4">Query 4</a></li>
-			</ul>
-            </div>
-        </td></tr>
-        <tr><td><h2>Top Searches</h2>
-			<div id="menu1">
-			<ul>
-				<li><a title="Film 1" href="#1">Film 1</a></li>
-				<li><a title="Film 2" href="#2">Film 2</a></li>
-				<li><a title="Film 3" href="#3">Film 3</a></li>
-				<li><a title="Film 4" href="#4">Film 4</a></li>
-			</ul>
-            </div>
-        </td></tr>
-    </table>
-		
-	</div>
-	<div id="content">
-		
-
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<center>
-		
-		<img src = "images/logo.png" alt = "This is our Popcorn logo" />
-	
-		<br/>
-		<form>
-	<br/><br/> 
-	<input type="text" id = "search" name="search"  class = "default-value" value="Search for film, actor, genre, keyword ..."/><a href="search"><img src="images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" /></a><br />
-	
-	</form>
-	
-	</center>
-	
-		
-	</div>
-	<div id="secondary">
-		
-	</div>
-	<div id="footer">
-		
-		<a href="random"><img id = "icon" alt = "Click here to display a random film" src = "images/icon.png"/></a>	</div>
-</div>
-</div>
-</body>
-</html>
+      </body>
+    </html>

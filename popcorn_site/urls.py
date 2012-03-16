@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
-
+from django.conf import settings
+import os
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -18,4 +19,12 @@ urlpatterns = patterns('',
         (r'^popcorn_app/$', 'popcorn_app.views.index'),
      # Previous URL's - these are not shown for clarity reasons
         (r'^popcorn_app/query/$', 'popcorn_app.views.query'),
+	(r'^popcorn_app/query2/$', 'popcorn_app.views.query2'),
+	(r'^popcorn_app/film/$', 'popcorn_app.views.film'),
+	(r'^popcorn_app/reviews/$', 'popcorn_app.views.reviews'),
+	(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+    #Url for css:
+	#(r'^css/(?<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_URL}),
+    #url for images:
+	#(r'^images/(?<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_URL})
 )

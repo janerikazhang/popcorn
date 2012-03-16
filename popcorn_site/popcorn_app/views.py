@@ -7,7 +7,7 @@ from django.shortcuts import render_to_response
 def index(request):
     """show popcorn_app index view"""
     context = RequestContext(request)
-    return render_to_response('popcorn_app/index.html', context)
+    return render_to_response('popcorn_app/index_with_menu.html', context)
 
 
 # From PuppyIR
@@ -24,5 +24,20 @@ def query(request):
     results_dict = {'query': user_query, 'results': results}
     return render_to_response('popcorn_app/results.html', results_dict, context)
 
+
+def query2(request):
+    """show popcorn_app query view"""
+    context = RequestContext(request)
+    return render_to_response('popcorn_app/query_results.html', context)
+
+def film(request):
+   """show popcorn_app film view"""
+   context = RequestContext(request)
+   return render_to_response('popcorn_app/view_film.html', context)
+
+def reviews(request):
+   """show popcorn_app reviews view"""
+   context = RequestContext(request)
+   return render_to_response('popcorn_app/view_reviews.html', context)
 
 

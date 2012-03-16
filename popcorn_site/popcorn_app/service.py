@@ -19,7 +19,7 @@ log_dir = "popcorn_app/query_logs"
 #    whoosh_dir = os.path.join(os.getcwd(), "popcorn_app/query_logs/index")
 
 config = {
- #"proxyhost": "http://wwwcache.gla.ac.uk:8080", # <-- remove if not UGLW
+ "proxyhost": "http://wwwcache.gla.ac.uk:8080", # <-- remove if not UGLW
  "log_dir": log_dir,
  "bing_api_key": "FA5E0EB846B909111D77EDA50D180AD1145506B3",
 }
