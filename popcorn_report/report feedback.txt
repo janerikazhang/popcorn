@@ -1,0 +1,158 @@
+Feedback for Specifications Report
+Based on 4 reviews.
+ 
+Critical Analysis of Specification and Design Report
+
+Step 1 - Clarity
+Is the report clear? Does it make sense? Or were there parts that were vague, unclear and poorly written and poorly described?
+[1]Well Written, Clear, and Easy to Understand
+[3]Mostly clear and easy to understand - some bits could be explain better
+[0]
+The clarity could be improved - but the general gist of the design is communicated
+[0]Generally unclear - poorly written - hard to understand the specifications and design
+ 
+Step 2 - Diagrams
+Does the report contain all the necessary diagrams? 
+[3]Contains an N-Tier architecture Diagram, E-R Diagram (if appropriate), messaging/sequencing diagram and wireframes
+[1]is missing one diagram?
+[0]is missing two diagrams?
+[0]is missing more than two diagrams?
+
+Step 3 - Messaging/Sequence Diagram
+Does the messaging diagram show all the messages that need to be sent and received in order to fulfill the client request? Is the ordering of the messages appropriate?
+[4]Messages ordered correctly and the flow of messages seems appropriate - i.e. it would satisfy the client request.
+[0]Mostly sensible, but there might be a couple of messages missing or the ordering of one message is out.
+[0]The messages passed dont appear to well thought out - i.e. i'm not sure whether this sequence would fulfill the client request
+[0]The messaging really confusing and not sensible - i.e. there is no way that this sequence would fulfil the client request
+
+Step 4 - Wireframes
+Do the wireframes give you a good sense of what the user might see? Are the labelled and annotated clearly? Is there anything missing? Is the arrangement sensible/justified?
+[2]
+The wireframes are clearly labelled, annotated and give a good sense of the interface. The layout is justified.
+[2]The wireframes are clearly labelled, annotated and provide a reasonably good sense of the interface.
+[0]The wireframes are relatively clear but poorly labelled or annotated.
+[0]The wireframes barely communicate the design of the interface.
+ 
+Step 5 - Comments on Diagrams
+Given your scores from above, comment on the problems with the diagrams. Be Specific and reference the figure (i.e. ER, N-Tier, etc). Use Bullet points and state problems and improvements.
+This report has a data model diagram, N-Tier architecture Diagram and some wireframe diagrams, but no ER diagram.
+These diagrams well explained the technology they using and the design conception.
+As a result of missing ER diagram, the entity define was unclearly.
+There are no real problems with any of the diagrams. Mainly personal aesthetic 'improvements'. It feels like a waste of a comment to say that the wireframes were too small but it made looking at them a bit more difficult. that being said, I didn't fully understand the third wireframe diagram. I didn't understand why part of the site's functionality was off the page and attached to the bottom of the wireframe. Was this to show that upon clicking something, it appears? Or that it is a different part of functionality? Or did they forget about it and tack it on at the end? It's not even labelled to potentially help relieve this confusion.
+In overall diagrams are quite well presented with enough description. It makes it clear how application will operate and what will be happening on different levels. 
+N-tier diagram can be rearrahged into moving Database component into tier-two. Which makes tier-three pure API. Or database might be separated from tier-two and tier-three cause database might be stored on a server.
+Data Model and Message passing are clear and weel organised. You could give an example of a short xml request/response snapshot from imb or youtube APIs.
+Score 4 out of 5.
+ER-diagram: The ER-diagram contains relationships represented with both edges and attributes. This
+makes it less clear.
+Sequence diagram: You use PuppyIR for your Login case. Why are you using PuppyIR for this instead of Django's
+provided authentication system? Even if you create your own authentication system, why not
+implement it directly in Django? Ignore the questions if it is just an error in the sequence diagram.
+
+Step 6 - Thoughtfulness of the Design
+Given the aims and objectives of the application, does the design of the application meet these aims? Does the design take into consideration the aims and objectives?
+[2]The design is well thought out and is likely to meet the stated objectives
+[2]The design is well thought out, it is likely that some of the stated objectives are not going to be met.
+[0]The design seems to be hacked together without much consideration for aims or objectives
+[0]The design is pretty poor and not very well thought out
+
+Step 7 - Comments and Suggested Changes
+Comment on the design and specification. Note three good things about the design (i.e. what you liked about the design), and three bad things about the design (what you didn't like about the design).
+Use bullet points.
+Good things:
+The first is that they connected the website with an outside database IMDB movie database which stores the film statistics. As a result of that, they do not need to store any information about film, only need a film ID to corresponding to a specific film in IMDB. 
+Another is support user rank is a good way to attract new user register.
+The sequence diagram was explained clearly.
+Bad things:
+The user definition was not that clear, as you say in the report, user should be separate to two parts, the user who has an account and the user has not.
+The content in limitation subtitle was repeated the content of aim of application. You should organize which part it should be put in rather than simply repeat them.
+Still the report organization should be improvement, some parts are unclearly defined.
+Good:
+Allowing to search by more than just title makes the tool very useful
+Allowing user reviews is an excellent way of making their product more unique and is an invaluable way of users getting more information
+Good scope for future updates to the program
+Bad:
+Limited use of APIs/different sources
+No obvious moderation on comments or reviews
+Personally, it feels like my TiVO box could provide this service more effectively,  minus the reviewing. Needs to make itself stand out more, possibly by including more of the non-essential functionality
+Things I like:
+ER and message passing diagrams and specification attached to them. Quite clear and not ambigious.
+UI Figure 1 and 2 are clear.
+The idea of rating movies and possibility to see other users, top rated movies. 
+Things I don`t like:
+UI description for Figure 3 is missing. Not clear how. Scenarios might be included. Also it is not stated what will make UI easy to use and pleasing. 
+Summary paragraph is copied & pasted from abstract section. Tiny font makes it difficult to read the document. Besides, paragraphs could be placed in a better way, avoiding big intervals between paragraphs.
+Functional requirements could be listed in a bullet points to make it more clear.
+ 
+Some must-have requirements don't seem to be necessary:
+View recent past searches
+See the most viewed films in the past day from all users
+Produce a random film result
+The personas are very simple, which might make it hard to relate to them as fictive users,
+and use them in discussions about design and features.
+Consider the use of IMDB-id as primary key for movies. Could this lead to problems? If so,
+would it be better to have an additional attribute for the imdb id?
+Wire frames are clear and the design seems simple and easy to use.
+It is good that you have motivated why a membership is required for writing reviews. Furthermore,
+you have a clear motivation of why PuppyIR is used.
+How IMDB will be used is well described and it is clear how you are going to achieve separation of concerns and why.
+
+
+
+ 
+ 
+Are there any obvious problems with the design and specification? What might the designers want to think about changing or modifying to make it clearer? Use Bullet points and point out up to three problems, and three suggestions.
+Problems:
+Not clear about how can you access the IMDB
+User definition not specifically.
+Specification need to be check carefully, the format and miss spelled words need to be correct.
+ Solution:
+Explain how to access IMDB.
+Clearly define two different kinds of users.
+Reread the specification before you hand in.
+See my last point in step 7 for my first comment here
+Again, from step 7 but the previous point about moderation. Systems can be easily abused (mass volumes of people liking or disliking a particular film for whatever reason) and allowing reviews can lead to many different problems. So I think a moderator/administrator is more essential than the team have suggested and is something which needs to be seriously considered.
+UI in a client interface section could be extended with some use cases or scenarios. 
+XML responses from imdbPY & youtube could be added, but absence of them does not make it a bad specification. But You should consider adding them in yor finall report.
+The size of the document is quite big. You could reduce it to 5 pages.
+You have included irreleavent information about puppyIR
+To summarize, the main points you might consider to address:
+Some functional requirements do not seem to be “must-have”
+
+The personas are very simple, which might make it hard to relate to them as fictive users,
+and use them in discussions about design and features.
+
+The ER-diagram contains relationships represented with both edges and attributes. This
+makes it less clear.
+
+(Database) Consider the use of IMDB-id as primary key for movies. Could this lead to problems? If so,
+would it be better to have an additional attribute for the imdb id?
+
+(Database) Numerical id for users might be easier to work with and more efficient.
+
+(Message passing) If your using PuppyIR for user authentication, have you analysed this design decision
+thoroughly?
+Step 8 - Overall Rating  of the Design from a Developers Perspective
+Imagine your were a Developer and you had just been given this document - would you be able to implement the application?
+[2]Yes, the design is clearly thought out and put together - I'd only need to ask a few questions,
+t.
+[2]Yeah, the design is pretty clear. I'd have to ask some questions and clarify details here and there but overall I get the picture.
+[0]Err... probably.. the design is not as clear as it could be. There are lots of aspects that need clarification. I'd probably implement something different then what was actually planned.
+ 
+[0]No.. the design is not clear at all. I would have to ask the designers lots of questions about how and what was going on.
+
+Step 9 - Overall Rating from a Clients Perspective
+Imagine your were  the client and you had just been given this document - how impressed would you be? Do you think that your application has been well specified? THe client will mainly be interested in the AIms and Objectives, the Wireframes, and the WalkThrough.
+[0]Yes, very impressed. The document looks professional and communicates my needs very well. I would be confident in commissioning this team to develop my application.
+[4]Yeah, pretty happy. It is clear that the designers know what they are doing - so aspects are not as clear as they could be. But overall, I know how my application will look and feel, and how it would operate.
+[0]Not really impressed. It is okay. But lots could be done to improve it. Also, I am not confident if the team could put it off.
+
+ [0]Rather unimpressed. The presentation and contents are scrappy and a shambles at best. I probably would not commission the services of these designers.
+Step 10 - Overall Rating from a Boss' Perspective
+You have hired this new team and gave them their first assignment. You know they are inexperienced and have a lot of other projects on their plate (but so does everyone else). If you were the boss, what would you be thinking about the overall quality of this report.
+[0]Excellent work. The clients and developers are going to be happy. The design is clear and it looks the business.
+[4]Good work - shows a lot of promise. You can see that they have made a real effort in satisfying the user's needs, and thinking about the design of this application.
+[0]
+Average.  The design is pretty clear. But the finish is poor. You can see that there is some promise but the team would have to really work hard.
+
+ [0]You have doubts about the quality of work. Maybe they will come through when they revise the report and deliver the application?

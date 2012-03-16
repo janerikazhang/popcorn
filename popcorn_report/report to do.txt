@@ -1,0 +1,14 @@
+references with \cite{label}
+
+
+images
+
+subsections, bullets with \begin{itemize} ... \item stuff
+
+missing last wireframe descriptions
+
+
+
+fix mistakes
+
+extra sections
