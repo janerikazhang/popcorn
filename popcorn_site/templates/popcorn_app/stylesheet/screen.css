@@ -1,0 +1,142 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background: black url('../images/mt.png') no-repeat top left;
+			/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	color: #fff;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#header{
+	height: 70px;
+}
+
+#container {
+	width: 1015px;
+	margin: 0 auto;
+}
+#primary {
+	float: left;
+	width: 115px;
+}
+#content {
+	float: left;
+	width: 695px;
+}
+#secondary {
+	float: left;
+	width: 115px;
+}
+#footer {
+	clear: both;
+}
+
+.results {
+    border: thin;
+	border-style: solid;
+	border-color: #fff;
+}
+
+
+#searchLabel{
+
+	font-size: 2.5em;
+	font-family: Comic Sans MS;
+	color: white;
+}
+
+#search{
+	width: 70%;
+	height: 30px;
+	 border-style: hidden;
+     border-width: 0px;
+
+     padding-left:7px;
+     padding-right:7px;
+     font-size:8pt;
+     margin-left:3px;
+  
+
+}
+
+#logo{
+	float:left;
+
+}
+#logoImage{
+	font-size: 4em;
+}
+
+#loginButton{
+	position:relative;
+	left: 20px;
+}
+#icon{
+position:relative;
+left:770px;
+top:240px;
+}
+
+fieldset{
+
+	border-color:white;
+}
+
+a{
+	color:white;
+}
+
+#sign_box1
+{
+width:170px; 
+
+padding:8px;
+position:relative;
+left:727px;
+top:10px;
+display:none;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-bottomright:6px;
+-webkit-border-top-left-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+border-style: solid solid solid solid;
+	border-color:#FF0000;
+	background-color:Black;
+	border-size: 1px;
+	border-width: 1px;
+	
+}
+
+#goodReviews{
+	float:left;
+	width:45%;
+}
+#badReviews{
+	float:right;
+	width:45%;
+}
+.sign_in
+{
+position:relative;
+left:870px;
+top:12px;
+}
+#main
+{
+height:500px;
+}
+
+.sign_in1
+{
+position:relative;
+left:600px;
+top:12px;
+}

@@ -1,0 +1,250 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}About the Framework}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Overview and background of the PuppyIR Framework}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The main features of the framework}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{Data Formatting}{3}{subsubsection*.3}
+\contentsline {subsubsection}{Architectural Paradigms}{4}{subsubsection*.4}
+\contentsline {subsubsection}{Event and Query Logging}{4}{subsubsection*.5}
+\contentsline {subsubsection}{Query and Result Filters}{4}{subsubsection*.6}
+\contentsline {subsubsection}{Query and Result Modifiers}{5}{subsubsection*.7}
+\contentsline {subsubsection}{Search Engine Wrappers}{5}{subsubsection*.8}
+\contentsline {subsubsection}{Testing and Exception Handling}{5}{subsubsection*.9}
+\contentsline {subsection}{\numberline {1.1.2}Extensibility of the framework}{5}{subsection.1.1.2}
+\contentsline {subsubsection}{Search Engine Wrappers}{5}{subsubsection*.10}
+\contentsline {subsubsection}{Query and Result Filters}{5}{subsubsection*.11}
+\contentsline {subsubsection}{Query and Result Modifiers}{5}{subsubsection*.12}
+\contentsline {subsection}{\numberline {1.1.3}Other features and framework support}{5}{subsection.1.1.3}
+\contentsline {subsubsection}{Which version of Python is the framework for?}{5}{subsubsection*.13}
+\contentsline {subsubsection}{Standalone Services}{5}{subsubsection*.14}
+\contentsline {subsubsection}{Proxy Server Support}{5}{subsubsection*.15}
+\contentsline {subsubsection}{Django support}{6}{subsubsection*.16}
+\contentsline {section}{\numberline {1.2}Requirements and Installation}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}PuppyIR and MacPorts}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Basic Requirements}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Extra Requirements}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Basic Installation}{7}{subsection.1.2.4}
+\contentsline {subsubsection}{Install Python}{8}{subsubsection*.17}
+\contentsline {subsubsection}{Install Setuptools}{8}{subsubsection*.18}
+\contentsline {subsubsection}{Install Universal Feed Parser}{8}{subsubsection*.19}
+\contentsline {subsubsection}{Install lxml}{8}{subsubsection*.20}
+\contentsline {subsubsection}{Install BeautifulSoup}{8}{subsubsection*.21}
+\contentsline {subsubsection}{Installing the PuppyIR Framework}{8}{subsubsection*.22}
+\contentsline {subsubsection}{Option 1: Installing a specific release}{9}{subsubsection*.23}
+\contentsline {subsubsection}{Option 2: Installing the development version}{9}{subsubsection*.24}
+\contentsline {subsection}{\numberline {1.2.5}Installing the Extras}{9}{subsection.1.2.5}
+\contentsline {subsubsection}{Install Django}{9}{subsubsection*.25}
+\contentsline {subsubsection}{Install Python Imaging Library (PIL)}{9}{subsubsection*.26}
+\contentsline {subsubsection}{Install Enchant}{10}{subsubsection*.27}
+\contentsline {subsubsection}{Install Whoosh}{10}{subsubsection*.28}
+\contentsline {section}{\numberline {1.3}Paradigm 1 - One Pipeline, One Search Engine}{10}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Description of the components}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Data flow in the `Service' paradigm}{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}On Filters, Modifiers and Query Logging}{12}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}The Query and Results formats}{12}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Paradigm 2 - One Pipeline, Many Search Engines}{12}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Description of the components}{13}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Data flow in the `Pipeline' paradigm}{13}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}On Filters, Modifiers and Query Logging}{15}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}The Query and Results formats}{15}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}Possible advantages of using this architecture}{16}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.6}Further Reading}{16}{subsection.1.4.6}
+\contentsline {chapter}{\numberline {2}Using the Framework}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Running Prototypes}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Downloading the Prototypes}{17}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Using aMuSeV2: a Multimedia Search engine mash-up}{18}{subsection.2.1.2}
+\contentsline {subsubsection}{Run aMuSeV2}{18}{subsubsection*.29}
+\contentsline {subsection}{\numberline {2.1.3}Using aMuSeV3: a Multimedia Search engine mash-up and browsing application}{18}{subsection.2.1.3}
+\contentsline {subsubsection}{Run aMuSeV3}{20}{subsubsection*.30}
+\contentsline {subsection}{\numberline {2.1.4}Using BaSe: Basic Search}{20}{subsection.2.1.4}
+\contentsline {subsubsection}{Run BaSe}{20}{subsubsection*.31}
+\contentsline {subsection}{\numberline {2.1.5}Using IfSe: Information Foraging Search}{21}{subsection.2.1.5}
+\contentsline {subsubsection}{Run IfSe}{21}{subsubsection*.32}
+\contentsline {subsection}{\numberline {2.1.6}Using MaSe: Multimedia Mash-up Search Engine}{22}{subsection.2.1.6}
+\contentsline {subsubsection}{Run MaSe}{22}{subsubsection*.33}
+\contentsline {subsection}{\numberline {2.1.7}Using SeSu: Search and Suggest}{22}{subsection.2.1.7}
+\contentsline {subsubsection}{Run SeSu}{22}{subsubsection*.34}
+\contentsline {section}{\numberline {2.2}Building a Standalone PuppyIR Service}{24}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Service Implementation}{24}{subsection.2.2.1}
+\contentsline {subsubsection}{1. Create and Configure the ServiceManager}{24}{subsubsection*.35}
+\contentsline {subsubsection}{2. Create a SearchService}{24}{subsubsection*.36}
+\contentsline {subsubsection}{3. Add a SearchEngine}{24}{subsubsection*.37}
+\contentsline {subsubsection}{4. Perform a Search}{25}{subsubsection*.38}
+\contentsline {subsubsection}{5. Enable the QueryLogger}{25}{subsubsection*.39}
+\contentsline {subsubsection}{6. Adding QueryFilters and ResultFilters}{26}{subsubsection*.40}
+\contentsline {subsection}{\numberline {2.2.2}Multiple Search Services}{26}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Exception Handling in PuppyIR}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Exception handling in the Query Pipeline}{27}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Exception handling for searching within an application}{28}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Exception handling in a search engine wrapper}{28}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Exception handling with the Result Pipeline}{29}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Note on the current state of Filter and Modifier Exceptions}{29}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}The PuppyIR Framework Test Suite}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Create}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Run}{30}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Example: Testing the Blacklist Filter}{30}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Tutorials}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}BaSe Tutorial: Building a PuppyIR/Django Service}{33}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Creating a Django project and application}{33}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Configuring the WeSe application, adding a view and creating the templates}{33}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Getting and displaying search results using PuppyIR}{35}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}IfSe Tutorial: Information Foraging Search Application}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Getting Started}{36}{subsection.3.2.1}
+\contentsline {subsubsection}{Downloading the Source Code for the Tutorial}{36}{subsubsection*.41}
+\contentsline {subsubsection}{Run IfSe}{37}{subsubsection*.42}
+\contentsline {subsection}{\numberline {3.2.2}Logging Queries}{37}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Modifying Queries}{38}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Adding Another Search Service}{38}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}More Querying Logging}{39}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Pipelining}{39}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Give IfSe a Style}{40}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Summing Up}{40}{subsection.3.2.8}
+\contentsline {section}{\numberline {3.3}MaSe Tutorial: Mash-up Search Engine Application}{40}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Getting Started}{40}{subsection.3.3.1}
+\contentsline {subsubsection}{Downloading the Source Code for the Tutorial}{40}{subsubsection*.43}
+\contentsline {subsubsection}{Run MaSe}{41}{subsubsection*.44}
+\contentsline {subsection}{\numberline {3.3.2}Adding our first services}{42}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Extending MaSe with query logging and suggestions}{43}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Filtering and the Pipelining}{45}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Experimenting}{46}{subsection.3.3.5}
+\contentsline {subsubsection}{Other Services}{46}{subsubsection*.45}
+\contentsline {subsubsection}{Other Parameters}{47}{subsubsection*.46}
+\contentsline {section}{\numberline {3.4}Pipeline Tutorial: DeeSe (Detective Search)}{47}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Getting Started}{47}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}DeeSee background}{47}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Creating our Pipeline Service}{48}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Setting up our query pipeline}{48}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}But what about the results?}{48}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Let's add some new search services}{49}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Next steps}{49}{subsection.3.4.7}
+\contentsline {chapter}{\numberline {4}Extending the PuppyIR Framework}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Extending the Query Pipeline}{51}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}The Query Operator base class}{51}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Creating new Query Filters}{51}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Creating new Query Modifiers}{52}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Extending the Result Pipeline}{53}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Orderable base class}{53}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Creating new Result Filters}{53}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Creating new Result Modifiers}{54}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Adding new Search Engine Wrappers}{56}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}The SearchEngine base class}{56}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Creating a new Search Engine wrapper}{57}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Origin of the results}{58}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Json and other formats}{58}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Appendices}{59}{chapter.5}
+\contentsline {section}{\numberline {5.1}Frequently Asked Questions}{59}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Why can't you limit the results from `RelatedSearch' in Bing and BingV2}{59}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Why can't you you search for `Videos' in the Bing wrapper?}{59}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}How does the offset affect which page, of results, is retrieved from a search engine wrapper?}{59}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}What's the difference between YouTube/YouTubeV2 and which should I use?}{59}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}What's the difference between Bing/BingV2 and which should I use?}{60}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Wrappers available in the PuppyIR Framework}{60}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Book Services}{60}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Image Services}{60}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Information Services}{60}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Location Based Searching}{60}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Movie Services}{61}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Music Services}{61}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}News Services}{61}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Social Network and Social News Services}{61}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Spelling Suggestions and Dictionary based results}{62}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.10}Video Services}{62}{subsection.5.2.10}
+\contentsline {section}{\numberline {5.3}The structure and the PuppyIR repository}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Trunk}{62}{subsection.5.3.1}
+\contentsline {subsubsection}{Framework}{62}{subsubsection*.47}
+\contentsline {subsection}{\numberline {5.3.2}Trunk/Demonstrators}{64}{subsection.5.3.2}
+\contentsline {subsubsection}{Hospital Demonstrator}{64}{subsubsection*.48}
+\contentsline {subsubsection}{Musueon Demonstrator}{66}{subsubsection*.49}
+\contentsline {subsubsection}{Prototypes}{66}{subsubsection*.50}
+\contentsline {subsubsection}{Interfaces}{67}{subsubsection*.51}
+\contentsline {subsection}{\numberline {5.3.3}Branches}{67}{subsection.5.3.3}
+\contentsline {subsubsection}{Work-in-progress prototypes}{68}{subsubsection*.52}
+\contentsline {subsection}{\numberline {5.3.4}Tags}{68}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Known issues with the PuppyIR framework}{69}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Python 2.6 issues}{69}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {6}API Reference}{71}{chapter.6}
+\contentsline {section}{\numberline {6.1}PuppyIR API Reference}{71}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}puppy.service}{71}{subsection.6.1.1}
+\contentsline {subsubsection}{ServiceManager}{71}{subsubsection*.54}
+\contentsline {subsubsection}{SearchService}{71}{subsubsection*.58}
+\contentsline {subsection}{\numberline {6.1.2}puppy.pipeline}{72}{subsection.6.1.2}
+\contentsline {subsubsection}{PipelineService}{72}{subsubsection*.69}
+\contentsline {subsubsection}{SearchEngineManager}{73}{subsubsection*.80}
+\contentsline {subsection}{\numberline {6.1.3}puppy.search}{74}{subsection.6.1.3}
+\contentsline {subsubsection}{SearchEngine}{74}{subsubsection*.87}
+\contentsline {subsection}{\numberline {6.1.4}puppy.search.exceptions}{74}{subsection.6.1.4}
+\contentsline {subsubsection}{SearchEngineError}{74}{subsubsection*.91}
+\contentsline {subsubsection}{ApiKeyError}{74}{subsubsection*.93}
+\contentsline {subsection}{\numberline {6.1.5}puppy.search.engine}{74}{subsection.6.1.5}
+\contentsline {subsubsection}{Bing}{74}{subsubsection*.95}
+\contentsline {subsubsection}{BingSite}{75}{subsubsection*.97}
+\contentsline {subsubsection}{BingV2 (API Version 2.2)}{75}{subsubsection*.99}
+\contentsline {subsubsection}{Digg}{76}{subsubsection*.101}
+\contentsline {subsubsection}{EmmaSearch}{76}{subsubsection*.103}
+\contentsline {subsubsection}{EmmaSearch SQL Server version}{76}{subsubsection*.105}
+\contentsline {subsubsection}{Flickr}{76}{subsubsection*.106}
+\contentsline {subsubsection}{Google Geocode}{77}{subsubsection*.108}
+\contentsline {subsubsection}{Google (depreciated)}{77}{subsubsection*.110}
+\contentsline {subsubsection}{Google Books}{77}{subsubsection*.112}
+\contentsline {subsubsection}{Guardian}{77}{subsubsection*.114}
+\contentsline {subsubsection}{iTunes}{78}{subsubsection*.116}
+\contentsline {subsubsection}{LastFM}{78}{subsubsection*.118}
+\contentsline {subsubsection}{OpenSearch}{78}{subsubsection*.120}
+\contentsline {subsubsection}{Picassa}{78}{subsubsection*.122}
+\contentsline {subsubsection}{Rotten Tomatoes}{79}{subsubsection*.124}
+\contentsline {subsubsection}{SimpleWikipedia}{79}{subsubsection*.126}
+\contentsline {subsubsection}{Solr}{79}{subsubsection*.128}
+\contentsline {subsubsection}{SoundCloud}{79}{subsubsection*.130}
+\contentsline {subsubsection}{Spotify}{80}{subsubsection*.132}
+\contentsline {subsubsection}{Twitter}{80}{subsubsection*.134}
+\contentsline {subsubsection}{WebSpellChecker}{80}{subsubsection*.136}
+\contentsline {subsubsection}{Wikipedia}{80}{subsubsection*.138}
+\contentsline {subsubsection}{Wordnik}{81}{subsubsection*.140}
+\contentsline {subsubsection}{Yahoo}{81}{subsubsection*.142}
+\contentsline {subsubsection}{YouTube}{81}{subsubsection*.144}
+\contentsline {subsubsection}{YouTubeV2 (API Version 2.0)}{81}{subsubsection*.146}
+\contentsline {subsection}{\numberline {6.1.6}Whoosh wrappers}{82}{subsection.6.1.6}
+\contentsline {subsubsection}{Whoosh Query Engine}{82}{subsubsection*.148}
+\contentsline {subsubsection}{Whoosh Query Suggest Engine}{82}{subsubsection*.150}
+\contentsline {subsection}{\numberline {6.1.7}puppy.model}{82}{subsection.6.1.7}
+\contentsline {subsubsection}{Response}{82}{subsubsection*.152}
+\contentsline {subsubsection}{Query}{84}{subsubsection*.163}
+\contentsline {subsubsection}{Description}{84}{subsubsection*.167}
+\contentsline {subsection}{\numberline {6.1.8}puppy.query}{85}{subsection.6.1.8}
+\contentsline {subsubsection}{QueryFilter}{85}{subsubsection*.171}
+\contentsline {subsubsection}{QueryModifier}{85}{subsubsection*.173}
+\contentsline {subsection}{\numberline {6.1.9}puppy.query.exceptions}{85}{subsection.6.1.9}
+\contentsline {subsubsection}{QueryRejectionError}{85}{subsubsection*.175}
+\contentsline {subsubsection}{QueryFilterError}{85}{subsubsection*.177}
+\contentsline {subsubsection}{QueryModifierError}{85}{subsubsection*.179}
+\contentsline {subsection}{\numberline {6.1.10}puppy.query.filter}{85}{subsection.6.1.10}
+\contentsline {subsubsection}{BlackListFilter}{85}{subsubsection*.181}
+\contentsline {subsubsection}{WDYL Profanity Filter}{86}{subsubsection*.183}
+\contentsline {subsubsection}{SuggestionFilter}{86}{subsubsection*.185}
+\contentsline {subsubsection}{WhooshQueryLogger}{86}{subsubsection*.187}
+\contentsline {paragraph}{About the Whoosh Query Logger}{86}{paragraph*.188}
+\contentsline {subsection}{\numberline {6.1.11}puppy.query.modifier}{86}{subsection.6.1.11}
+\contentsline {subsubsection}{SpellingModifier}{86}{subsubsection*.191}
+\contentsline {subsubsection}{TermExpansionModifier}{87}{subsubsection*.193}
+\contentsline {subsubsection}{KidsModifier}{87}{subsubsection*.195}
+\contentsline {subsubsection}{KidifyQueryModifier}{87}{subsubsection*.197}
+\contentsline {subsection}{\numberline {6.1.12}puppy.result}{87}{subsection.6.1.12}
+\contentsline {subsubsection}{ResultFilter}{87}{subsubsection*.198}
+\contentsline {subsubsection}{ResultModifier}{87}{subsubsection*.200}
+\contentsline {subsection}{\numberline {6.1.13}puppy.result.exceptions}{88}{subsection.6.1.13}
+\contentsline {subsubsection}{ResultFilterError}{88}{subsubsection*.202}
+\contentsline {subsubsection}{ResultModifierError}{88}{subsubsection*.204}
+\contentsline {subsection}{\numberline {6.1.14}puppy.result.filter}{88}{subsection.6.1.14}
+\contentsline {subsubsection}{Age Filter}{88}{subsubsection*.206}
+\contentsline {subsubsection}{Duplicate Filter}{88}{subsubsection*.208}
+\contentsline {subsubsection}{ExclusionFilter}{89}{subsubsection*.210}
+\contentsline {subsubsection}{ProfanityFilter}{89}{subsubsection*.212}
+\contentsline {subsubsection}{SuitabilityFilter}{89}{subsubsection*.214}
+\contentsline {subsection}{\numberline {6.1.15}puppy.result.modifier}{90}{subsection.6.1.15}
+\contentsline {subsubsection}{BlackListModifier}{90}{subsubsection*.216}
+\contentsline {subsubsection}{URLDecorator}{90}{subsubsection*.218}
+\contentsline {subsection}{\numberline {6.1.16}puppy.logging}{90}{subsection.6.1.16}
+\contentsline {subsubsection}{QueryLogger}{90}{subsubsection*.220}
+\contentsline {subsubsection}{EventLogger}{91}{subsubsection*.225}
+\contentsline {chapter}{\numberline {7}Indices and tables}{93}{chapter.7}
+\contentsline {chapter}{Python Module Index}{95}{section*.230}
+\contentsline {chapter}{Index}{97}{section*.231}

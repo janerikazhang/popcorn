@@ -1,0 +1,188 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item add\_filters() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item add\_filters() (puppy.service.SearchService method), \hyperpage{71}
+  \item add\_query\_filter() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item add\_query\_filter() (puppy.service.SearchService method), \hyperpage{71}
+  \item add\_query\_modifier() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item add\_query\_modifier() (puppy.service.SearchService method), \hyperpage{71}
+  \item add\_result\_filter() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item add\_result\_filter() (puppy.service.SearchService method), \hyperpage{71}
+  \item add\_result\_modifier() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item add\_result\_modifier() (puppy.service.SearchService method), \hyperpage{71}
+  \item add\_search\_engine() (puppy.pipeline.SearchEngineManager method), \hyperpage{73}
+  \item add\_search\_service() (puppy.service.ServiceManager method), \hyperpage{71}
+  \item AgeFilter (class in puppy.result.filter), \hyperpage{88}
+  \item ApiKeyError (class in puppy.search.exceptions), \hyperpage{74}
+
+  \indexspace
+  \bigletter B
+  \item Bing (class in puppy.search.engine), \hyperpage{74}
+  \item BingSite (class in puppy.search.engine), \hyperpage{75}
+  \item BingV2 (class in puppy.search.engine), \hyperpage{75}
+  \item BlackListFilter (class in puppy.query.filter), \hyperpage{85}
+  \item BlackListResultModifier (class in puppy.result.modifier), \hyperpage{90}
+
+  \indexspace
+  \bigletter C
+  \item clear\_filters() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item clear\_filters() (puppy.service.SearchService method), \hyperpage{71}
+  \item clear\_search\_engines() (puppy.pipeline.SearchEngineManager method), \hyperpage{73}
+  \item configure\_opener() (puppy.search.SearchEngine method), \hyperpage{74}
+  \item create\_logger() (puppy.logging.EventLogger method), \hyperpage{91}
+  \item create\_logger() (puppy.logging.QueryLogger method), \hyperpage{90}
+
+  \indexspace
+  \bigletter D
+  \item Description (class in puppy.model), \hyperpage{84}
+  \item Digg (class in puppy.search.engine), \hyperpage{76}
+  \item DuplicateFilter (class in puppy.result.filter), \hyperpage{88}
+
+  \indexspace
+  \bigletter E
+  \item EmmaSearch (class in puppy.search.engine), \hyperpage{76}
+  \item EventLogger (class in puppy.logging), \hyperpage{91}
+  \item ExclusionFilter (class in puppy.result.filter), \hyperpage{89}
+
+  \indexspace
+  \bigletter F
+  \item Flickr (class in puppy.search.engine), \hyperpage{76}
+
+  \indexspace
+  \bigletter G
+  \item get\_itemsperpage() (puppy.model.Response method), \hyperpage{83}
+  \item get\_log\_dir() (puppy.logging.EventLogger method), \hyperpage{91}
+  \item get\_log\_dir() (puppy.logging.QueryLogger method), \hyperpage{90}
+  \item get\_search\_engine() (puppy.pipeline.SearchEngineManager method), \hyperpage{73}
+  \item get\_search\_engines() (puppy.pipeline.SearchEngineManager method), \hyperpage{73}
+  \item get\_startindex() (puppy.model.Response method), \hyperpage{83}
+  \item get\_totalresults() (puppy.model.Response method), \hyperpage{83}
+  \item Google (class in puppy.search.engine), \hyperpage{77}
+  \item GoogleBooks (class in puppy.search.engine), \hyperpage{77}
+  \item GoogleGeocode (class in puppy.search.engine), \hyperpage{77}
+  \item Guardian (class in puppy.search.engine), \hyperpage{77}
+
+  \indexspace
+  \bigletter I
+  \item ITunes (class in puppy.search.engine), \hyperpage{78}
+
+  \indexspace
+  \bigletter K
+  \item KidsModifier (class in puppy.query.modifier), \hyperpage{87}
+
+  \indexspace
+  \bigletter L
+  \item LastFM (class in puppy.search.engine), \hyperpage{78}
+  \item log() (puppy.logging.EventLogger method), \hyperpage{91}
+  \item log() (puppy.logging.QueryLogger method), \hyperpage{90}
+
+  \indexspace
+  \bigletter O
+  \item OpenSearch (class in puppy.search.engine), \hyperpage{78}
+
+  \indexspace
+  \bigletter P
+  \item parse\_feed() (puppy.model.Response static method), \hyperpage{83}
+  \item parse\_json\_suggestions() (puppy.model.Response static method), \hyperpage{83}
+  \item parse\_xml() (puppy.model.Description static method), \hyperpage{84}
+  \item parse\_xml() (puppy.model.Query static method), \hyperpage{84}
+  \item parse\_xml\_suggestions() (puppy.model.Response static method), \hyperpage{83}
+  \item Picassa (class in puppy.search.engine), \hyperpage{78}
+  \item PipelineService (class in puppy.pipeline), \hyperpage{72}
+  \item puppy.logging (module), \hyperpage{90}
+  \item puppy.model (module), \hyperpage{82}
+  \item puppy.pipeline (module), \hyperpage{72}
+  \item puppy.query (module), \hyperpage{85}
+  \item puppy.query.exceptions (module), \hyperpage{85}
+  \item puppy.query.filter (module), \hyperpage{85}
+  \item puppy.query.filter.whooshQueryLogger (module), \hyperpage{86}
+  \item puppy.query.modifier (module), \hyperpage{86}
+  \item puppy.result (module), \hyperpage{87}
+  \item puppy.result.exceptions (module), \hyperpage{88}
+  \item puppy.result.filter (module), \hyperpage{88}
+  \item puppy.result.modifier (module), \hyperpage{90}
+  \item puppy.search (module), \hyperpage{74}
+  \item puppy.search.engine (module), \hyperpage{74}
+  \item puppy.search.engine.whooshQueryEngine (module), \hyperpage{82}
+  \item puppy.search.engine.whooshQuerySuggestEngine (module), \hyperpage{82}
+  \item puppy.search.exceptions (module), \hyperpage{74}
+  \item puppy.service (module), \hyperpage{71}
+
+  \indexspace
+  \bigletter Q
+  \item Query (class in puppy.model), \hyperpage{84}
+  \item QueryFilter (class in puppy.query), \hyperpage{85}
+  \item QueryFilterError (class in puppy.query.exceptions), \hyperpage{85}
+  \item QueryLogger (class in puppy.logging), \hyperpage{90}
+  \item QueryModifier (class in puppy.query), \hyperpage{85}
+  \item QueryModifierError (class in puppy.query.exceptions), \hyperpage{85}
+  \item QueryRejectionError (class in puppy.query.exceptions), \hyperpage{85}
+
+  \indexspace
+  \bigletter R
+  \item remove\_search\_engine() (puppy.pipeline.SearchEngineManager method), \hyperpage{73}
+  \item remove\_search\_service() (puppy.service.ServiceManager method), \hyperpage{71}
+  \item replace\_filters() (puppy.pipeline.PipelineService method), \hyperpage{72}
+  \item replace\_filters() (puppy.service.SearchService method), \hyperpage{71}
+  \item Response (class in puppy.model), \hyperpage{82}
+  \item ResultFilter (class in puppy.result), \hyperpage{87}
+  \item ResultFilterError (class in puppy.result.exceptions), \hyperpage{88}
+  \item ResultModifier (class in puppy.result), \hyperpage{87}
+  \item ResultModifierError (class in puppy.result.exceptions), \hyperpage{88}
+  \item RottenTomatoes (class in puppy.search.engine), \hyperpage{79}
+
+  \indexspace
+  \bigletter S
+  \item search() (puppy.search.SearchEngine method), \hyperpage{74}
+  \item search() (puppy.service.SearchService method), \hyperpage{72}
+  \item searchAll() (puppy.pipeline.PipelineService method), \hyperpage{73}
+  \item SearchEngine (class in puppy.search), \hyperpage{74}
+  \item SearchEngineError (class in puppy.search.exceptions), \hyperpage{74}
+  \item SearchEngineManager (class in puppy.pipeline), \hyperpage{73}
+  \item SearchService (class in puppy.service), \hyperpage{71}
+  \item searchSpecificEngine() (puppy.pipeline.PipelineService method), \hyperpage{73}
+  \item ServiceManager (class in puppy.service), \hyperpage{71}
+  \item simplesearch() (puppy.service.SearchService method), \hyperpage{72}
+  \item SimpleWikipedia (class in puppy.search.engine), \hyperpage{79}
+  \item Solr (class in puppy.search.engine), \hyperpage{79}
+  \item SoundCloud (class in puppy.search.engine), \hyperpage{79}
+  \item SpellingCorrectingModifier (class in puppy.query.modifier), \hyperpage{86}
+  \item Spotify (class in puppy.search.engine), \hyperpage{80}
+  \item SuggestionFilter (class in puppy.query.filter), \hyperpage{86}
+  \item SuitabilityFilter (class in puppy.result.filter), \hyperpage{89}
+
+  \indexspace
+  \bigletter T
+  \item TermExpansionModifier (class in puppy.query.modifier), \hyperpage{87}
+  \item to\_atom() (puppy.model.Response method), \hyperpage{83}
+  \item to\_json() (puppy.model.Response method), \hyperpage{83}
+  \item to\_rss() (puppy.model.Response method), \hyperpage{83}
+  \item Twitter (class in puppy.search.engine), \hyperpage{80}
+
+  \indexspace
+  \bigletter U
+  \item URLDecorator (class in puppy.result.modifier), \hyperpage{90}
+
+  \indexspace
+  \bigletter W
+  \item WdylProfanityFilter (class in puppy.result.filter), \hyperpage{89}
+  \item WdylProfanityQueryFilter (class in puppy.query.filter), \hyperpage{86}
+  \item WebSpellChecker (class in puppy.search.engine), \hyperpage{80}
+  \item WhooshQueryEngine (class in puppy.search.engine.whooshQueryEngine), \hyperpage{82}
+  \item WhooshQueryLogger (class in puppy.query.filter.whooshQueryLogger), \hyperpage{86}
+  \item WhooshQuerySuggestEngine (class in puppy.search.engine.whooshQuerySuggestEngine), 
+		\hyperpage{82}
+  \item Wikipedia (class in puppy.search.engine), \hyperpage{80}
+  \item Wordnik (class in puppy.search.engine), \hyperpage{81}
+  \item write\_xml() (puppy.model.Description method), \hyperpage{84}
+  \item write\_xml() (puppy.model.Query method), \hyperpage{84}
+
+  \indexspace
+  \bigletter Y
+  \item Yahoo (class in puppy.search.engine), \hyperpage{81}
+  \item YouTube (class in puppy.search.engine), \hyperpage{81}
+  \item YouTubeV2 (class in puppy.search.engine), \hyperpage{81}
+
+\end{theindex}

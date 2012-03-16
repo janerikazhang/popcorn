@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet/screen.css" media="screen" />
+  	<link rel="stylesheet" type="text/css" href="stylesheet/menu.css" media="screen" />
+    <script type="text/javascript" src="js/view_film.js"></script>
+            
+    <title>Popcorn .:.:. the film search engine</title>
+</head>
+<body>
+<div id ="content">
+<div id="container">
+        <div id="header"></div>
+	<div id="primary">
+	
+	<table>
+	    <tr><td><h2>User name</h2></td></tr>
+        <tr><td>&nbsp;</td></tr>
+    	<tr><td><h2>Past Searches</h2>
+			<div id="menu1">
+			<ul>
+				<li><a title="Query 1" href="#1">Query 1</a></li>
+				<li><a title="Query 2" href="#2">Query 2</a></li>
+				<li><a title="Query 3" href="#3">Query 3</a></li>
+				<li><a title="Query 4" href="#4">Query 4</a></li>
+			</ul>
+            </div>
+        </td></tr>
+        <tr><td><h2>Liked Films</h2>
+			<div id="menu1">
+			<ul>
+				<li><a title="Film 1" href="#1">Film 1</a></li>
+				<li><a title="Film 2" href="#2">Film 2</a></li>
+				<li><a title="Film 3" href="#3">Film 3</a></li>
+			</ul>
+            </div>
+        </td></tr>
+        <tr><td><h2>Top Searches</h2>
+			<div id="menu1">
+			<ul>
+				<li><a title="Film 1" href="#1">Film 1</a></li>
+				<li><a title="Film 2" href="#2">Film 2</a></li>
+				<li><a title="Film 3" href="#3">Film 3</a></li>
+				<li><a title="Film 4" href="#4">Film 4</a></li>
+			</ul>
+            </div>
+        </td></tr>
+    </table>
+		
+	</div>
+	<div id="content">
+		<center>
+		
+		<img src = "images\logo.png" alt = "This is our Popcorn logo" />
+	
+		<br/>
+		<form>
+	<br/><br/> 
+	<input type="text" id = "search" name="search" value="Query entered"/><a href="javascript:document.this.submit();"><img src="images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" /></a><br />
+	
+	</form>
+	
+	<table width="520" border="0" id = "accordion" class="results">
+      <tr>
+        <th width="255" scope="col" align="left"><h1>1 - Film Title</h1></th>
+        <th width="255" scope="col" align="right"><h1>8.9&nbsp;&nbsp;&nbsp;<a href="like"><img src="images/like.png" width="64" height="78" alt="Like this film" align="middle" /></a><a href="dislike"><img src="images/dislike.png" width="64" height="78" alt="Dislike this film" align="middle" /></a></h1>
+      </tr>
+      <tr>
+      	<td colspan="2"><a href="javascript:toggle('description');" title="Click to show/hide" class="filminfo"><h2>[Description]</h2></a>
+      <div id="description">
+   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+      </div>
+      </td>
+      </tr>
+      <tr>
+      	<td colspan="2"><a href="javascript:toggle('trailer');" title="Click to show/hide" class="filminfo"><h2>[Film Trailer]</h2></a>
+      <div id="trailer">
+   <p><iframe width="420" height="315" src="http://www.youtube.com/embed/EEIp0qPBbEI?rel=0" frameborder="0" allowfullscreen></iframe></p>
+      </div>
+      </td>
+      </tr>
+      <tr>
+      	<td colspan="2"><a href="javascript:toggle('info');" title="Click to show/hide" class="filminfo"><h2>[IMDB Information]</h2></a>
+      <div id="info">
+   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+      </div>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2"><a href="javascript:toggle('review');" title="Click to show/hide" class="filminfo"><h2>[Latest Review]</h2></a>
+      <div id="review">
+   <p><u><i>Username</i></u><br  />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p></div><br />
+   <a href="#" class="filminfo"><h2>[View All Reviews]</h2></a>
+      <form name="add_review">
+      <h3>Add your review and press the Submit button</h3>
+      <textarea rows="20" cols="60" />Write your review here ...</textarea>
+      <p align="center"><input type="button" value="Submit Review" id="submit" /></cp>
+      </form>
+      </td>
+      </tr>
+    </table>
+    
+	  </center>
+	
+		
+	</div>
+	<div id="secondary">
+		
+	</div>
+	<div id="footer">
+		
+		<a href="random"><img id = "icon" alt = "Click here to display a random film" src = "images\icon.png"/></a>	</div>
+</div>
+</div>
+</body>
+</html>

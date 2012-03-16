@@ -1,0 +1,128 @@
+\indexentry{puppy.service (module)|hyperpage}{71}
+\indexentry{ServiceManager (class in puppy.service)|hyperpage}{71}
+\indexentry{add\_search\_service() (puppy.service.ServiceManager method)|hyperpage}{71}
+\indexentry{remove\_search\_service() (puppy.service.ServiceManager method)|hyperpage}{71}
+\indexentry{SearchService (class in puppy.service)|hyperpage}{71}
+\indexentry{add\_filters() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{add\_query\_filter() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{add\_query\_modifier() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{add\_result\_filter() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{add\_result\_modifier() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{clear\_filters() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{replace\_filters() (puppy.service.SearchService method)|hyperpage}{71}
+\indexentry{search() (puppy.service.SearchService method)|hyperpage}{72}
+\indexentry{simplesearch() (puppy.service.SearchService method)|hyperpage}{72}
+\indexentry{puppy.pipeline (module)|hyperpage}{72}
+\indexentry{PipelineService (class in puppy.pipeline)|hyperpage}{72}
+\indexentry{add\_filters() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{add\_query\_filter() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{add\_query\_modifier() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{add\_result\_filter() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{add\_result\_modifier() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{clear\_filters() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{replace\_filters() (puppy.pipeline.PipelineService method)|hyperpage}{72}
+\indexentry{searchAll() (puppy.pipeline.PipelineService method)|hyperpage}{73}
+\indexentry{searchSpecificEngine() (puppy.pipeline.PipelineService method)|hyperpage}{73}
+\indexentry{SearchEngineManager (class in puppy.pipeline)|hyperpage}{73}
+\indexentry{add\_search\_engine() (puppy.pipeline.SearchEngineManager method)|hyperpage}{73}
+\indexentry{clear\_search\_engines() (puppy.pipeline.SearchEngineManager method)|hyperpage}{73}
+\indexentry{get\_search\_engine() (puppy.pipeline.SearchEngineManager method)|hyperpage}{73}
+\indexentry{get\_search\_engines() (puppy.pipeline.SearchEngineManager method)|hyperpage}{73}
+\indexentry{remove\_search\_engine() (puppy.pipeline.SearchEngineManager method)|hyperpage}{73}
+\indexentry{puppy.search (module)|hyperpage}{74}
+\indexentry{SearchEngine (class in puppy.search)|hyperpage}{74}
+\indexentry{configure\_opener() (puppy.search.SearchEngine method)|hyperpage}{74}
+\indexentry{search() (puppy.search.SearchEngine method)|hyperpage}{74}
+\indexentry{puppy.search.exceptions (module)|hyperpage}{74}
+\indexentry{SearchEngineError (class in puppy.search.exceptions)|hyperpage}{74}
+\indexentry{ApiKeyError (class in puppy.search.exceptions)|hyperpage}{74}
+\indexentry{puppy.search.engine (module)|hyperpage}{74}
+\indexentry{Bing (class in puppy.search.engine)|hyperpage}{74}
+\indexentry{BingSite (class in puppy.search.engine)|hyperpage}{75}
+\indexentry{BingV2 (class in puppy.search.engine)|hyperpage}{75}
+\indexentry{Digg (class in puppy.search.engine)|hyperpage}{76}
+\indexentry{EmmaSearch (class in puppy.search.engine)|hyperpage}{76}
+\indexentry{Flickr (class in puppy.search.engine)|hyperpage}{76}
+\indexentry{GoogleGeocode (class in puppy.search.engine)|hyperpage}{77}
+\indexentry{Google (class in puppy.search.engine)|hyperpage}{77}
+\indexentry{GoogleBooks (class in puppy.search.engine)|hyperpage}{77}
+\indexentry{Guardian (class in puppy.search.engine)|hyperpage}{77}
+\indexentry{ITunes (class in puppy.search.engine)|hyperpage}{78}
+\indexentry{LastFM (class in puppy.search.engine)|hyperpage}{78}
+\indexentry{OpenSearch (class in puppy.search.engine)|hyperpage}{78}
+\indexentry{Picassa (class in puppy.search.engine)|hyperpage}{78}
+\indexentry{RottenTomatoes (class in puppy.search.engine)|hyperpage}{79}
+\indexentry{SimpleWikipedia (class in puppy.search.engine)|hyperpage}{79}
+\indexentry{Solr (class in puppy.search.engine)|hyperpage}{79}
+\indexentry{SoundCloud (class in puppy.search.engine)|hyperpage}{79}
+\indexentry{Spotify (class in puppy.search.engine)|hyperpage}{80}
+\indexentry{Twitter (class in puppy.search.engine)|hyperpage}{80}
+\indexentry{WebSpellChecker (class in puppy.search.engine)|hyperpage}{80}
+\indexentry{Wikipedia (class in puppy.search.engine)|hyperpage}{80}
+\indexentry{Wordnik (class in puppy.search.engine)|hyperpage}{81}
+\indexentry{Yahoo (class in puppy.search.engine)|hyperpage}{81}
+\indexentry{YouTube (class in puppy.search.engine)|hyperpage}{81}
+\indexentry{YouTubeV2 (class in puppy.search.engine)|hyperpage}{81}
+\indexentry{puppy.search.engine.whooshQueryEngine (module)|hyperpage}{82}
+\indexentry{WhooshQueryEngine (class in puppy.search.engine.whooshQueryEngine)|hyperpage}{82}
+\indexentry{puppy.search.engine.whooshQuerySuggestEngine (module)|hyperpage}{82}
+\indexentry{WhooshQuerySuggestEngine (class in puppy.search.engine.whooshQuerySuggestEngine)|hyperpage}{82}
+\indexentry{puppy.model (module)|hyperpage}{82}
+\indexentry{Response (class in puppy.model)|hyperpage}{82}
+\indexentry{get\_itemsperpage() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{get\_startindex() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{get\_totalresults() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{parse\_feed() (puppy.model.Response static method)|hyperpage}{83}
+\indexentry{parse\_json\_suggestions() (puppy.model.Response static method)|hyperpage}{83}
+\indexentry{parse\_xml\_suggestions() (puppy.model.Response static method)|hyperpage}{83}
+\indexentry{to\_atom() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{to\_json() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{to\_rss() (puppy.model.Response method)|hyperpage}{83}
+\indexentry{Query (class in puppy.model)|hyperpage}{84}
+\indexentry{parse\_xml() (puppy.model.Query static method)|hyperpage}{84}
+\indexentry{write\_xml() (puppy.model.Query method)|hyperpage}{84}
+\indexentry{Description (class in puppy.model)|hyperpage}{84}
+\indexentry{parse\_xml() (puppy.model.Description static method)|hyperpage}{84}
+\indexentry{write\_xml() (puppy.model.Description method)|hyperpage}{84}
+\indexentry{puppy.query (module)|hyperpage}{85}
+\indexentry{QueryFilter (class in puppy.query)|hyperpage}{85}
+\indexentry{QueryModifier (class in puppy.query)|hyperpage}{85}
+\indexentry{puppy.query.exceptions (module)|hyperpage}{85}
+\indexentry{QueryRejectionError (class in puppy.query.exceptions)|hyperpage}{85}
+\indexentry{QueryFilterError (class in puppy.query.exceptions)|hyperpage}{85}
+\indexentry{QueryModifierError (class in puppy.query.exceptions)|hyperpage}{85}
+\indexentry{puppy.query.filter (module)|hyperpage}{85}
+\indexentry{BlackListFilter (class in puppy.query.filter)|hyperpage}{85}
+\indexentry{WdylProfanityQueryFilter (class in puppy.query.filter)|hyperpage}{86}
+\indexentry{SuggestionFilter (class in puppy.query.filter)|hyperpage}{86}
+\indexentry{puppy.query.filter.whooshQueryLogger (module)|hyperpage}{86}
+\indexentry{WhooshQueryLogger (class in puppy.query.filter.whooshQueryLogger)|hyperpage}{86}
+\indexentry{puppy.query.modifier (module)|hyperpage}{86}
+\indexentry{SpellingCorrectingModifier (class in puppy.query.modifier)|hyperpage}{86}
+\indexentry{TermExpansionModifier (class in puppy.query.modifier)|hyperpage}{87}
+\indexentry{KidsModifier (class in puppy.query.modifier)|hyperpage}{87}
+\indexentry{KidsModifier (class in puppy.query.modifier)|hyperpage}{87}
+\indexentry{puppy.result (module)|hyperpage}{87}
+\indexentry{ResultFilter (class in puppy.result)|hyperpage}{87}
+\indexentry{ResultModifier (class in puppy.result)|hyperpage}{87}
+\indexentry{puppy.result.exceptions (module)|hyperpage}{88}
+\indexentry{ResultFilterError (class in puppy.result.exceptions)|hyperpage}{88}
+\indexentry{ResultModifierError (class in puppy.result.exceptions)|hyperpage}{88}
+\indexentry{puppy.result.filter (module)|hyperpage}{88}
+\indexentry{AgeFilter (class in puppy.result.filter)|hyperpage}{88}
+\indexentry{DuplicateFilter (class in puppy.result.filter)|hyperpage}{88}
+\indexentry{ExclusionFilter (class in puppy.result.filter)|hyperpage}{89}
+\indexentry{WdylProfanityFilter (class in puppy.result.filter)|hyperpage}{89}
+\indexentry{SuitabilityFilter (class in puppy.result.filter)|hyperpage}{89}
+\indexentry{puppy.result.modifier (module)|hyperpage}{90}
+\indexentry{BlackListResultModifier (class in puppy.result.modifier)|hyperpage}{90}
+\indexentry{URLDecorator (class in puppy.result.modifier)|hyperpage}{90}
+\indexentry{puppy.logging (module)|hyperpage}{90}
+\indexentry{QueryLogger (class in puppy.logging)|hyperpage}{90}
+\indexentry{create\_logger() (puppy.logging.QueryLogger method)|hyperpage}{90}
+\indexentry{get\_log\_dir() (puppy.logging.QueryLogger method)|hyperpage}{90}
+\indexentry{log() (puppy.logging.QueryLogger method)|hyperpage}{90}
+\indexentry{EventLogger (class in puppy.logging)|hyperpage}{91}
+\indexentry{create\_logger() (puppy.logging.EventLogger method)|hyperpage}{91}
+\indexentry{get\_log\_dir() (puppy.logging.EventLogger method)|hyperpage}{91}
+\indexentry{log() (puppy.logging.EventLogger method)|hyperpage}{91}
