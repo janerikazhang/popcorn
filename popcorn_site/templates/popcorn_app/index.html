@@ -14,7 +14,7 @@
 
           <div id="searchbox">
 
-            <form action="/popcorn_app/query/" onsubmit="return validate_form(this)" method="post">
+            <form action="/popcorn_app/query/" onsubmit="javascript: submitform();" method="post">
 
               {% csrf_token %} <!-- cross-site request forgery protection -->
 

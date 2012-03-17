@@ -12,8 +12,7 @@ def index(request):
         return render_to_response('popcorn_app/index_with_menu.html', context)
 
     elif request.method == 'POST':
-	    query3(request)
-    return
+        return query(request)
 
 
 # From PuppyIR
@@ -25,10 +24,11 @@ from popcorn_app.service import service
 def query(request):
     """show results for query"""
     user_query = request.POST['query']
-    results = service.search_services['web_search'].search(Query(user_query)).entries
+    #results = service.search_services['web_search'].search(Query(user_query)).entries
     context = RequestContext(request)
-    results_dict = {'query': user_query, 'results': results}
-    return render_to_response('popcorn_app/results.html', results_dict, context)
+    #results_dict = {'query': user_query, 'results': results}
+    #return render_to_response('popcorn_app/results.html') #, results_dict, context
+    return render_to_response('results.html', {'query': user_query, 'results': results.entries}, context)
 
 def query2(request):
     """show popcorn_app query view"""
@@ -37,6 +37,7 @@ def query2(request):
 
 def query3(request, query):
    """show popcorn_app query view"""
+   context = RequestContext(request)
    return HttpResponse("You searched for %s." % query)
 
 

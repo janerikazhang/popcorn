@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="/media/css/screen.css" media="screen" />
   	<link rel="stylesheet" type="text/css" href="/media/css/menu.css" media="screen" />
-    <script type="text/javascript" src="/media/JS/view_film.js"></script>
+        <script type="text/javascript" src="/media/JS/view_film.js"></script>
             
     <title>Popcorn .:.:. the film search engine</title>
 </head>
@@ -16,6 +16,13 @@
 	<table>
 	    <tr><td><h2>User name</h2></td></tr>
         <tr><td>&nbsp;</td></tr>
+	<tr><td>
+			<div id="menu1">
+			<ul>
+				<li><a title="Home" href="/popcorn_app/">Home</a></li>
+			</ul>
+            </div>
+        </td></tr>
     	<tr><td><h2>Past Searches</h2>
 			<div id="menu1">
 			<ul>
@@ -51,16 +58,15 @@
 	<div id="content">
 		<center>
 
-		<a href="/popcorn_app/">
-		<img src = "/media/images/logo.png" alt = "This is our Popcorn logo" />
-		</a>
+		<br/><br/><br/>
 
-		<br/>
+	<div id="searchbox">
 		<form>
 	<br/><br/> 
-	<input type="text" id = "search" name="search" value="Query entered" onBlur="if (this.value == '') {this.value='Query entered';}" onFocus="if (this.value == 'Query entered') {this.value='';}"/><a href="javascript:document.this.submit();"><img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" /></a><br />
+	<input type="text" id = "search" name="search" value="Query entered" onBlur="if (this.value == '') {this.value='Query entered';}" onFocus="if (this.value == 'Query entered') {this.value='';}"/><a href="javascript:document.this.submit();"><img src="/media/images/search_button.png" width="50"  align="middle" alt="Click here to search our web site" /></a><br />
 	
 	</form>
+	</div>
 	
 	<table width="520" border="0" id = "accordion" class="results">
       <tr>
@@ -68,7 +74,7 @@
         <th width="255" scope="col" align="right"><h1>8.9&nbsp;&nbsp;&nbsp;<a href="like"><img src="/media/images/like.png" width="64" height="78" alt="Like this film" align="middle" /></a><a href="dislike"><img src="/media/images/dislike.png" width="64" height="78" alt="Dislike this film" align="middle" /></a></h1>
       </tr>
       <tr>
-      	<td colspan="2"><a href="javascript:toggle('description');" title="Click to show/hide" class="filminfo"><h2>[Description]</h2></a>
+      	<td colspan="2"><a href="javascript: toggle('description');" title="Click to show/hide" class="filminfo"><h2>[Description]</h2></a>
       <div id="description">
    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
       </div>

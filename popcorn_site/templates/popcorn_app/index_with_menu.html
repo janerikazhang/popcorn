@@ -62,7 +62,14 @@ return false;
 	<table>
 	  
         <tr><td>&nbsp;</td></tr>
-    	<tr><td><h2>Past Searches</h2>
+    	<tr><td>
+			<div id="menu1">
+			<ul>
+				<li><a title="Home" href="/popcorn_app/">Home</a></li>
+			</ul>
+            </div>
+        </td></tr>
+	<tr><td><h2>Past Searches</h2>
 			<div id="menu1">
 			<ul>
 				<li><a title="Query 1" href="#1">Query 1</a></li>
@@ -95,20 +102,16 @@ return false;
 		<br/>
 		<br/>
 		<center>
-		
-		<a href="/popcorn_app/">
-		<img src = "/media/images/logo.png" alt = "This is our Popcorn logo" />
-		</a>
-	
+			
 		<br/>
 	
 	<div id="searchbox">
 
-            <form>
+            <form method="post">
 	        <br/><br/> 
 	        <input type="text" id = "search" name="search" value="Search for film title, actor, genre or keyword..." onBlur="if (this.value == '') {this.value='Search for film title, actor, genre or keyword...';}" onFocus="if (this.value == 'Search for film title, actor, genre or keyword...') {this.value='';}"/>
                 <a href="javascript: submitform();">
-                <img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" />
+                <img src="/media/images/search_button.png" width="50" align="middle" alt="Click here to search our web site" />
                 </a><br/>
 	    </form>
 
@@ -120,7 +123,7 @@ return false;
 	</div>
 	<div id="footer">
 		
-		<a href="random"><img id = "icon" alt = "Click here to display a random film" src = "/media/images/icon.png"/></a>	</div>
+		<a class="footer" href="random">POP!<br/>Generate Random Film</a></div>
 </div>
 </div>
 </body>

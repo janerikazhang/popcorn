@@ -15,6 +15,13 @@
 	<table>
 	    <tr><td><h2>User name</h2></td></tr>
         <tr><td>&nbsp;</td></tr>
+	<tr><td>
+			<div id="menu1">
+			<ul>
+				<li><a title="Home" href="/popcorn_app/">Home</a></li>
+			</ul>
+            </div>
+        </td></tr>
     	<tr><td><h2>Past Searches</h2>
 			<div id="menu1">
 			<ul>
@@ -49,20 +56,17 @@
 	</div>
 	<div id="content">
 		<center>
-		
-		<a href="/popcorn_app/">
-		<img src = "/media/images/logo.png" alt = "This is our Popcorn logo" />
-		</a>
 
-		<br/>
+		<br/><br/><br/>
+		<div id="searchbox">
 		<form>
 	<br/><br/> 
 	<input type="text" id = "search" name="search" value="Query entered" onBlur="if (this.value == '') {this.value='Query entered';}" onFocus="if (this.value == 'Query entered') {this.value='';}"/>
         <a href="document.forms['myform'].submit();">
-        <img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" />
+        <img src="/media/images/search_button.png" width="50" align="middle" alt="Click here to search our web site" />
         </a><br />
 	
-	</form>
+	</form></div>
 	
 	<table width="520" border="0" class="results">
       <tr>
@@ -113,9 +117,6 @@
 	<div id="secondary">
 		
 	</div>
-	<div id="footer">
-		
-		<a href="random"><img id = "icon" alt = "Click here to display a random film" src = "/media/images/icon.png"/></a>	</div>
 </div>
 </div>
 </body>

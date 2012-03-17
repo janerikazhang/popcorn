@@ -3,7 +3,7 @@ body {
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background: black url('/media/images/mt.png') no-repeat top left;
+	background: black url('/media/images/bg1.png') no-repeat top;
 			/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
 	display: table;
@@ -34,12 +34,11 @@ body {
 	float: left;
 	width: 115px;
 }
-#footer {
-	clear: both;
-}
 
 .results {
-    border: thin;
+	position:relative;
+	left: 200px;
+   	border: thin;
 	border-style: solid;
 	border-color: #fff;
 }
@@ -66,6 +65,11 @@ body {
 
 }
 
+#searchbox{
+	position:relative;
+	left: 200px;
+}
+
 #logoImage{
 	font-size: 4em;
 }
@@ -88,6 +92,25 @@ fieldset{
 a{
 	color:white;
 }
+#footer{
+	position: relative;
+	bottom: -405px;
+	right: 30px;
+	font-size: 3em;
+	text-align: center;
+}
+
+#footersmall{
+	position: relative;
+	bottom: -525px;
+	right: -95px;
+	font-size: 3em;
+	text-align: center;
+}
+
+.footer{
+ 	color: red;
+}
 
 #sign_box
 {
@@ -95,7 +118,7 @@ width:170px;
 
 padding:8px;
 position:relative;
-left:727px;
+left:757px;
 top:10px;
 display:none;
 -moz-border-radius-topleft:6px;
@@ -114,7 +137,7 @@ border-style: solid solid solid solid;
 .sign_in
 {
 position:relative;
-left:870px;
+left:900px;
 top:12px;
 }
 #main
