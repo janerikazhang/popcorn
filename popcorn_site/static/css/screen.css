@@ -3,9 +3,10 @@ body {
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background: black url('../images/mt.png') no-repeat top left;
+	background: black url('/media/images/mt.png') no-repeat top left;
 			/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
+	display: table;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	margin: 0;
 	color: #fff;

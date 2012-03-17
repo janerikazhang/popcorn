@@ -39,8 +39,6 @@ return false;
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
 <head>
-{% load static %}
-{% get_static_prefix as STATIC_PREFIX %}
 	<link rel="stylesheet" type="text/css" href="/media/css/screen.css" media="screen" />
   	<link rel="stylesheet" type="text/css" href="/media/css/menu.css" media="screen" />
     
@@ -98,30 +96,23 @@ return false;
 		<br/>
 		<center>
 		
+		<a href="/popcorn_app/">
 		<img src = "/media/images/logo.png" alt = "This is our Popcorn logo" />
+		</a>
 	
 		<br/>
+	
 	<div id="searchbox">
 
-            <form action="/popcorn_app/query/" onsubmit="return validate_form(this)" method="post">
+            <form>
+	        <br/><br/> 
+	        <input type="text" id = "search" name="search" value="Search for film title, actor, genre or keyword..." onBlur="if (this.value == '') {this.value='Search for film title, actor, genre or keyword...';}" onFocus="if (this.value == 'Search for film title, actor, genre or keyword...') {this.value='';}"/>
+                <a href="javascript: submitform();">
+                <img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" />
+                </a><br/>
+	    </form>
 
-              {% csrf_token %} <!-- cross-site request forgery protection -->
-
-              <input type="text" name="query" value="" id="query">
-
-              <input type="submit" value="Search" />
-
-            </form>
-
-          </div> <!-- searchbox -->
-	<div id="resultbox">
-
-            {% block main %}{% endblock %} <!-- placeholder block for results -->
-
-          </div> <!-- resultbox -->
-	
-	</center>
-	
+          </div> <!-- searchbox -->	
 		
 	</div>
 	<div id="secondary">

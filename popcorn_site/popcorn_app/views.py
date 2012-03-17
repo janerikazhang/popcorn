@@ -3,11 +3,17 @@
 # Django
 from django.template.context import RequestContext
 from django.shortcuts import render_to_response
+from django.http import HttpResponse ####
 
 def index(request):
-    """show popcorn_app index view"""
     context = RequestContext(request)
-    return render_to_response('popcorn_app/index_with_menu.html', context)
+    if request.method == 'GET':
+        """show popcorn_app index view"""
+        return render_to_response('popcorn_app/index_with_menu.html', context)
+
+    elif request.method == 'POST':
+	    query3(request)
+    return
 
 
 # From PuppyIR
@@ -24,11 +30,19 @@ def query(request):
     results_dict = {'query': user_query, 'results': results}
     return render_to_response('popcorn_app/results.html', results_dict, context)
 
-
 def query2(request):
     """show popcorn_app query view"""
     context = RequestContext(request)
     return render_to_response('popcorn_app/query_results.html', context)
+
+def query3(request, query):
+   """show popcorn_app query view"""
+   return HttpResponse("You searched for %s." % query)
+
+
+
+
+
 
 def film(request):
    """show popcorn_app film view"""

@@ -96,12 +96,18 @@ TEMPLATE_LOADERS = (
 #     'django.template.loaders.eggs.Loader',
 )
 
+# added to avoid 304 on GET
+class NoIfModifiedSinceMiddleware(object):
+    def process_request(self, request):
+        request.META.pop('HTTP_IF_MODIFIED_SINCE', None)
+
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'popcorn_site.settings.NoIfModifiedSinceMiddleware',
 )
 
 ROOT_URLCONF = 'popcorn_site.urls'

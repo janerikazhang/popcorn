@@ -50,13 +50,17 @@
 	<div id="content">
 		<center>
 		
+		<a href="/popcorn_app/">
 		<img src = "/media/images/logo.png" alt = "This is our Popcorn logo" />
-	
+		</a>
+
 		<br/>
 		<form>
 	<br/><br/> 
-	<input type="text" id = "search" name="search" value="Query entered"/><a href="document.forms['myform'].submit();
-"><img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" /></a><br />
+	<input type="text" id = "search" name="search" value="Query entered" onBlur="if (this.value == '') {this.value='Query entered';}" onFocus="if (this.value == 'Query entered') {this.value='';}"/>
+        <a href="document.forms['myform'].submit();">
+        <img src="/media/images/search_button.png" width="96" height="88" align="middle" alt="Click here to search our web site" />
+        </a><br />
 	
 	</form>
 	
