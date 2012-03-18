@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.28)  16 MAR 2012 15:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.28)  17 MAR 2012 23:58
 entering extended mode
  %&-line parsing enabled.
 **implreport.tex
@@ -282,21 +282,24 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 )
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (./implreport.aux)
 \openout1 = `implreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -311,27 +314,22 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count117
 \everyMPtoPDFconversion=\toks39
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 35.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (54.71385pt too wide) in paragraph at lines 35--35
+Overfull \hbox (54.71385pt too wide) in paragraph at lines 36--36
  \eaddfnt 0502862m}@student.glasgow.ac.uk| 
- []
-
-
-Overfull \hbox (33.83078pt too wide) in paragraph at lines 53--74
-[][] 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -340,87 +338,93 @@ Overfull \hbox (33.83078pt too wide) in paragraph at lines 53--74
 ]
 <tier.png, id=14, 505.89pt x 690.58pt>
 File: tier.png Graphic file (type png)
- <use tier.png>
-Overfull \hbox (6.91064pt too wide) in paragraph at lines 99--101
-[][] \T1/aer/m/n/9 Pop-corn
- []
-
-<erdiagram.png, id=16, 328.22626pt x 298.11375pt>
+ <use tier.png> [2 <./tier.png>]
+<erdiagram.png, id=20, 328.22626pt x 298.11375pt>
 File: erdiagram.png Graphic file (type png)
- <use erdiagram.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./tier.png> <./erdiagram.png>] <seqdiagram.png, id=22, 553.06625pt x 926.4
-6124pt>
+ <use erdiagram.png> [3 <./erdiagram.png>] <seqdiagram.png, id=25, 553.06625pt 
+x 926.46124pt>
 File: seqdiagram.png Graphic file (type png)
 
 <use seqdiagram.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 7558) has occurred while \output is active []
-
- [3 <./seqdiagram.png>]
-Overfull \hbox (4.62416pt too wide) in paragraph at lines 224--225
+ [4 <./seqdiagram.png>]
+Overfull \hbox (4.62416pt too wide) in paragraph at lines 288--289
 []\T1/aer/m/n/9 Functionality that was ini-tially dis-cussed but de-cided would
 
  []
 
-<wireframe1.png, id=27, 766.865pt x 702.625pt>
+[5] <wireframe1.png, id=36, 766.865pt x 702.625pt>
 File: wireframe1.png Graphic file (type png)
  <use wireframe1.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (13.06624pt too wide) in paragraph at lines 309--311
+[] 
+ []
 
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 245--253
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
-<wireframe2.png, id=32, 765.86125pt x 702.625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--320
+
+ []
+
+[6 <./wireframe1.png>] <wireframe2.png, id=41, 765.86125pt x 702.625pt>
 File: wireframe2.png Graphic file (type png)
- <use wireframe2.png>
-Underfull \hbox (badness 10000) in paragraph at lines 258--265
+
+<use wireframe2.png>
+Overfull \hbox (12.73499pt too wide) in paragraph at lines 322--324
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 325--332
 
+ []
 
-<wireframe3.png, id=33, 765.86125pt x 829.0975pt>
+<wireframe3.png, id=42, 765.86125pt x 829.0975pt>
 File: wireframe3.png Graphic file (type png)
  <use wireframe3.png>
-Overfull \hbox (1.55891pt too wide) in paragraph at lines 266--272
-[] \T1/aer/m/n/9 1 -
+Overfull \hbox (12.73499pt too wide) in paragraph at lines 334--340
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--272
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
-[5 <./wireframe1.png> <./wireframe2.png> <./wireframe3.png>] (./implreport.aux)
- ) 
+[7 <./wireframe2.png> <./wireframe3.png>] (./implreport.aux) ) 
 Here is how much of TeX's memory you used:
- 2880 strings out of 495061
- 35352 string characters out of 1182620
- 94611 words of memory out of 3000000
- 5962 multiletter control sequences out of 15000+50000
- 49529 words of font info for 66 fonts, out of 3000000 for 9000
+ 2901 strings out of 495061
+ 35707 string characters out of 1182620
+ 95736 words of memory out of 3000000
+ 5978 multiletter control sequences out of 15000+50000
+ 50665 words of font info for 67 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 41i,12n,26p,917b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texm
-f-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8
-a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on implreport.pdf (5 pages, 401896 bytes).
+ 41i,12n,26p,787b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf
+-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/urw/
+helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.p
+fb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf
+-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on implreport.pdf (7 pages, 437079 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -108,6 +108,7 @@ return false;
 	<div id="searchbox">
 
             <form method="post">
+		{% csrf_token %}
 	        <br/><br/> 
 	        <input type="text" id = "search" name="search" value="Search for film title, actor, genre or keyword..." onBlur="if (this.value == '') {this.value='Search for film title, actor, genre or keyword...';}" onFocus="if (this.value == 'Search for film title, actor, genre or keyword...') {this.value='';}"/>
                 <a href="javascript: submitform();">

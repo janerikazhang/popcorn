@@ -23,12 +23,12 @@ from popcorn_app.service import service
 
 def query(request):
     """show results for query"""
-    user_query = request.POST['query']
+    user_query = request.POST['search']
     #results = service.search_services['web_search'].search(Query(user_query)).entries
     context = RequestContext(request)
     #results_dict = {'query': user_query, 'results': results}
     #return render_to_response('popcorn_app/results.html') #, results_dict, context
-    return render_to_response('results.html', {'query': user_query, 'results': results.entries}, context)
+    return render_to_response('popcorn_app/query_results.html', {'query': user_query, 'results': 'result'}, context)
 
 def query2(request):
     """show popcorn_app query view"""

@@ -18,8 +18,7 @@ urlpatterns = patterns('',
     # Other URLs
         (r'^popcorn_app/$', 'popcorn_app.views.index'),
      # Previous URL's - these are not shown for clarity reasons
-        (r'^popcorn_app/query/$', 'popcorn_app.views.query'),
-	(r'^popcorn_app/query2/$', 'popcorn_app.views.query2'),
+        (r'^popcorn_app/query/$', 'popcorn_app.views.query2'),
 	(r'^popcorn_app/film/$', 'popcorn_app.views.film'),
 	(r'^popcorn_app/reviews/$', 'popcorn_app.views.reviews'),
 	(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
