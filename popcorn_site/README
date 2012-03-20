@@ -1,0 +1,8 @@
+Popcorn can be run from this folder using: python manage.py runserver
+
+Pages that can be visited are at urls:
+
+http://127.0.0.1:8000/popcorn_app/
+http://127.0.0.1:8000/popcorn_app/query/
+http://127.0.0.1:8000/popcorn_app/film/
+http://127.0.0.1:8000/popcorn_app/reviews/
